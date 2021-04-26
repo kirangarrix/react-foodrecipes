@@ -1,12 +1,28 @@
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import RecipeCard from './RecipeCard';
 import './RecipeCards.css'
-let RecipeCardWrapper= ()=>{
+const API_KEY='794a4514771c48959b05902029175859';
+let RecipeCardWrapper= (props)=>{
+const [recipes,setRecipes] = useState([]); 
+useEffect(()=>{
+
+if(props.selectedRecipe)
+fetchRecipe();
+},[props.selectedRecipe]);  
+
+let fetchRecipe = async ()=>{
+ let response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${props.selectedRecipe}&addRecipeInformation=true&number=6`);
+ let recipeData = await response.json();
+ setRecipes(recipeData.results);
+ console.log(recipeData);
+};
+
     return (
     <div className="recipeWrapper">
-
-    <RecipeCard/>
-
+    {
+        recipes.map((recipe) => (
+            <RecipeCard key={recipe.id} recipe={recipe}/>
+         ))}
     </div>);
 
 };

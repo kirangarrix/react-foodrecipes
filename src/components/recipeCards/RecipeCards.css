@@ -1,5 +1,13 @@
 .recipeWrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+    position: absolute;
     transform: translate(0px,50px);
+    overflow-y: auto;
+    height: auto;
+    top: 0;
+    bottom: 50px;
 }
 .recipeCard{
     margin: 10px;
