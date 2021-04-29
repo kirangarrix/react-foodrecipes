@@ -1,8 +1,10 @@
 import React,{useEffect, useState} from 'react';
 import RecipeCard from './RecipeCard';
-import './RecipeCards.css'
+import './RecipeCards.css';
+import {useLocation} from 'react-router-dom';
 const API_KEY='794a4514771c48959b05902029175859';
 let RecipeCardWrapper= (props)=>{
+    let urlState=useLocation().state;
 const [recipes,setRecipes] = useState([]); 
 useEffect(()=>{
 
@@ -18,7 +20,10 @@ let fetchRecipe = async ()=>{
 };
 
     return (
-    <div className="recipeWrapper">
+    <div className="recipeWrapper"
+    style={{
+        width:urlState&&urlState.hasDetails?'60%':'100%'
+    }}>
     {
         recipes.map((recipe) => (
             <RecipeCard key={recipe.id} recipe={recipe}/>
