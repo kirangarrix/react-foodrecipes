@@ -1,0 +1,634 @@
+{
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "weightWatcherSmartPoints": 13,
+    "gaps": "no",
+    "lowFodmap": false,
+    "aggregateLikes": 19,
+    "spoonacularScore": 92,
+    "healthScore": 48,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 354.96,
+    "extendedIngredients": [
+        {
+            "id": 11353,
+            "aisle": "Produce",
+            "image": "russet-or-idaho-potatoes.png",
+            "consistency": "solid",
+            "name": "baking potatoes",
+            "nameClean": "starchy potato",
+            "original": "2 baking Potatoes",
+            "originalString": "2 baking Potatoes",
+            "originalName": "baking Potatoes",
+            "amount": 2,
+            "unit": "",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 2,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 2,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 6008,
+            "aisle": "Canned and Jarred",
+            "image": "beef-broth.png",
+            "consistency": "liquid",
+            "name": "beef broth",
+            "nameClean": "beef broth",
+            "original": "2 cups of beef broth",
+            "originalString": "2 cups of beef broth",
+            "originalName": "beef broth",
+            "amount": 2,
+            "unit": "cups",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 2,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 473.176,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 1001,
+            "aisle": "Milk, Eggs, Other Dairy",
+            "image": "butter-sliced.jpg",
+            "consistency": "solid",
+            "name": "butter",
+            "nameClean": "butter",
+            "original": "2 tablespoons of Butter",
+            "originalString": "2 tablespoons of Butter",
+            "originalName": "Butter",
+            "amount": 2,
+            "unit": "tablespoons",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 2,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 11165,
+            "aisle": "Produce",
+            "image": "cilantro.png",
+            "consistency": "solid",
+            "name": "cilantro",
+            "nameClean": "fresh cilantro",
+            "original": "1 bunch of Cilantro, Chopped",
+            "originalString": "1 bunch of Cilantro, Chopped",
+            "originalName": "Cilantro, Chopped",
+            "amount": 1,
+            "unit": "bunch",
+            "meta": [
+                "chopped"
+            ],
+            "metaInformation": [
+                "chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "bunch",
+                    "unitLong": "bunch"
+                },
+                "metric": {
+                    "amount": 1,
+                    "unitShort": "bunch",
+                    "unitLong": "bunch"
+                }
+            }
+        },
+        {
+            "id": 93605,
+            "aisle": "Ethnic Foods",
+            "image": "chili-paste.png",
+            "consistency": "solid",
+            "name": "curry paste",
+            "nameClean": "curry paste",
+            "original": "2 tablespoons of Curry",
+            "originalString": "2 tablespoons of Curry",
+            "originalName": "Curry",
+            "amount": 2,
+            "unit": "tablespoons",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 2,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 98953,
+            "aisle": "Spices and Seasonings",
+            "image": "hemp-protein-powder.png",
+            "consistency": "solid",
+            "name": "fennel powder",
+            "nameClean": "ground fennel",
+            "original": "1/2 teaspoon of fennel powder",
+            "originalString": "1/2 teaspoon of fennel powder",
+            "originalName": "fennel powder",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 93663,
+            "aisle": "Ethnic Foods;Spices and Seasonings",
+            "image": "garam-masala.jpg",
+            "consistency": "solid",
+            "name": "garam masala",
+            "nameClean": "garam masala",
+            "original": "1/2 teaspoon of Garam Masala",
+            "originalString": "1/2 teaspoon of Garam Masala",
+            "originalName": "Garam Masala",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 11215,
+            "aisle": "Produce",
+            "image": "garlic.png",
+            "consistency": "solid",
+            "name": "garlic",
+            "nameClean": "garlic",
+            "original": "3 cloves of Garlic, Minced",
+            "originalString": "3 cloves of Garlic, Minced",
+            "originalName": "Garlic, Minced",
+            "amount": 3,
+            "unit": "cloves",
+            "meta": [
+                "minced"
+            ],
+            "metaInformation": [
+                "minced"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 3,
+                    "unitShort": "cloves",
+                    "unitLong": "cloves"
+                },
+                "metric": {
+                    "amount": 3,
+                    "unitShort": "cloves",
+                    "unitLong": "cloves"
+                }
+            }
+        },
+        {
+            "id": 11216,
+            "aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+            "image": "ginger.png",
+            "consistency": "solid",
+            "name": "ginger",
+            "nameClean": "ginger",
+            "original": "1 teaspoon of Ginger",
+            "originalString": "1 teaspoon of Ginger",
+            "originalName": "Ginger",
+            "amount": 1,
+            "unit": "teaspoon",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                },
+                "metric": {
+                    "amount": 1,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                }
+            }
+        },
+        {
+            "id": 17059,
+            "aisle": "Meat",
+            "image": "beef-cubes-raw.jpg",
+            "consistency": "solid",
+            "name": "lamb stew meat",
+            "nameClean": "lamb stew meat",
+            "original": "5 1/2 pounds of Cooked Lamb stew meat",
+            "originalString": "5 1/2 pounds of Cooked Lamb stew meat",
+            "originalName": "Cooked Lamb stew meat",
+            "amount": 5.5,
+            "unit": "pounds",
+            "meta": [
+                "cooked"
+            ],
+            "metaInformation": [
+                "cooked"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 5.5,
+                    "unitShort": "lb",
+                    "unitLong": "pounds"
+                },
+                "metric": {
+                    "amount": 2.495,
+                    "unitShort": "kilogram",
+                    "unitLong": "kilograms"
+                }
+            }
+        },
+        {
+            "id": 11260,
+            "aisle": "Produce",
+            "image": "mushrooms.png",
+            "consistency": "solid",
+            "name": "mushrooms",
+            "nameClean": "mushrooms",
+            "original": "6 ounces of Mushrooms, Chopped",
+            "originalString": "6 ounces of Mushrooms, Chopped",
+            "originalName": "Mushrooms, Chopped",
+            "amount": 6,
+            "unit": "ounces",
+            "meta": [
+                "chopped"
+            ],
+            "metaInformation": [
+                "chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 6,
+                    "unitShort": "oz",
+                    "unitLong": "ounces"
+                },
+                "metric": {
+                    "amount": 170.097,
+                    "unitShort": "g",
+                    "unitLong": "grams"
+                }
+            }
+        },
+        {
+            "id": 4053,
+            "aisle": "Oil, Vinegar, Salad Dressing",
+            "image": "olive-oil.jpg",
+            "consistency": "liquid",
+            "name": "olive oil",
+            "nameClean": "olive oil",
+            "original": "2 tablespoons of Olive Oil",
+            "originalString": "2 tablespoons of Olive Oil",
+            "originalName": "Olive Oil",
+            "amount": 2,
+            "unit": "tablespoons",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 2,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 11282,
+            "aisle": "Produce",
+            "image": "brown-onion.png",
+            "consistency": "solid",
+            "name": "onion",
+            "nameClean": "onion",
+            "original": "1 Onion, Diced",
+            "originalString": "1 Onion, Diced",
+            "originalName": "Onion, Diced",
+            "amount": 1,
+            "unit": "",
+            "meta": [
+                "diced"
+            ],
+            "metaInformation": [
+                "diced"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 1,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 2027,
+            "aisle": "Produce;Spices and Seasonings",
+            "image": "oregano.jpg",
+            "consistency": "solid",
+            "name": "oregano",
+            "nameClean": "oregano",
+            "original": "1 tablespoon of Oregano",
+            "originalString": "1 tablespoon of Oregano",
+            "originalName": "Oregano",
+            "amount": 1,
+            "unit": "tablespoon",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        },
+        {
+            "id": 1001116,
+            "aisle": "Milk, Eggs, Other Dairy",
+            "image": "plain-yogurt.jpg",
+            "consistency": "liquid",
+            "name": "plain yogurt",
+            "nameClean": "plain yogurt",
+            "original": "1/2 cup of Plain Yogurt",
+            "originalString": "1/2 cup of Plain Yogurt",
+            "originalName": "Plain Yogurt",
+            "amount": 0.5,
+            "unit": "cup",
+            "meta": [
+                "plain"
+            ],
+            "metaInformation": [
+                "plain"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 118.294,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 2036,
+            "aisle": "Produce;Spices and Seasonings",
+            "image": "rosemary.jpg",
+            "consistency": "solid",
+            "name": "rosemary",
+            "nameClean": "rosemary",
+            "original": "1 tablespoon of Rosemary",
+            "originalString": "1 tablespoon of Rosemary",
+            "originalName": "Rosemary",
+            "amount": 1,
+            "unit": "tablespoon",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        },
+        {
+            "id": 2047,
+            "aisle": "Spices and Seasonings",
+            "image": "salt.jpg",
+            "consistency": "solid",
+            "name": "salt",
+            "nameClean": "salt",
+            "original": "1/2 teaspoon of Salt",
+            "originalString": "1/2 teaspoon of Salt",
+            "originalName": "Salt",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 11887,
+            "aisle": "Pasta and Rice",
+            "image": "tomato-paste.jpg",
+            "consistency": "solid",
+            "name": "tomato paste",
+            "nameClean": "tomato paste",
+            "original": "1 can of Tomato Paste",
+            "originalString": "1 can of Tomato Paste",
+            "originalName": "Tomato Paste",
+            "amount": 1,
+            "unit": "can",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "can",
+                    "unitLong": "can"
+                },
+                "metric": {
+                    "amount": 1,
+                    "unitShort": "can",
+                    "unitLong": "can"
+                }
+            }
+        }
+    ],
+    "id": 660290,
+    "title": "Slow Cooker Lamb Curry",
+    "readyInMinutes": 45,
+    "servings": 8,
+    "sourceUrl": "http://www.foodista.com/recipe/Z5MXNR2V/slow-cooker-lamb-curry",
+    "image": "https://spoonacular.com/recipeImages/660290-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Slow Cooker Lamb Curry is ready <b>in about 45 minutes</b> and is definitely a super <b>gluten free</b> option for lovers of Indian food. For <b>$3.57 per serving</b>, this recipe <b>covers 42%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>568 calories</b>, <b>67g of protein</b>, and <b>24g of fat</b> each. Head to the store and pick up baking potatoes, rosemary, ginger, and a few other things to make it today. To use up the curry paste you could follow this main course with the <a href=\"https://spoonacular.com/recipes/chocolate-hazelnut-decadence-cake-pop-738246\">Chocolate Hazelnut Decadence Cake Pop</a> as a dessert. 19 people have made this recipe and would make it again. A couple people really liked this main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 93%</b>. This score is spectacular. Try <a href=\"https://spoonacular.com/recipes/leg-of-lamb-for-the-slow-cooker-crock-pot-96966\">Leg of Lamb for the Slow Cooker / Crock Pot</a>, <a href=\"https://spoonacular.com/recipes/slow-cooker-lamb-shanks-484177\">Slow Cooker Lamb Shanks</a>, and <a href=\"https://spoonacular.com/recipes/slow-cooker-lamb-stroganoff-517174\">Slow Cooker Lamb Stroganoff</a> for similar recipes.",
+    "cuisines": [
+        "Indian",
+        "Asian"
+    ],
+    "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+    ],
+    "diets": [
+        "gluten free"
+    ],
+    "occasions": [],
+    "winePairing": {
+        "pairedWines": [
+            "sparkling rose",
+            "gruener veltliner",
+            "riesling"
+        ],
+        "pairingText": "Sparkling rosé, Gruener Veltliner, and Riesling are my top picks for Indian. The best wine for Indian food will depending on the dish, of course, but these picks can be served chilled and have some sweetness to complement the spiciness and complex flavors of a wide variety of traditional dishes. The Sophora Sparkling rosé with a 4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
+        "productMatches": [
+            {
+                "id": 459589,
+                "title": "Sophora Sparkling Rose",
+                "description": "Gold Medal Winner: 2014 Los Angeles International Wine CompetitionThis sparkling Rose made from Chardonnay and Pinot Noir has an attractive pink blush color and luscious palate with a lasting, refreshing mousse. Delightful floral aromas and juicy red berry, cherry and pink grapefruit flavors with a balanced acidity and a creamy, decadent finish.",
+                "price": "$14.99",
+                "imageUrl": "https://spoonacular.com/productImages/459589-312x231.jpg",
+                "averageRating": 0.8,
+                "ratingCount": 14,
+                "score": 0.7767441860465116,
+                "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsophora-sparkling-rose%2F130441"
+            }
+        ]
+    },
+    "instructions": "<ol><li>Pull out your slow cooker and add everything into the pot with the exception of the yogurt.</li><li>Now turn on your pot, setting it on low for the next 4-6 hours or high for the next 3-5.</li><li>When the time is up, open up your slow cooker, grab your yogurt and stir it into the curry.</li><li>Serve over rice.</li></ol>",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Pull out your slow cooker and add everything into the pot with the exception of the yogurt.Now turn on your pot, setting it on low for the next 4-6 hours or high for the next 3-5.When the time is up, open up your slow cooker, grab your yogurt and stir it into the curry.",
+                    "ingredients": [
+                        {
+                            "id": 1116,
+                            "name": "yogurt",
+                            "localizedName": "yogurt",
+                            "image": "plain-yogurt.jpg"
+                        },
+                        {
+                            "id": 2015,
+                            "name": "curry powder",
+                            "localizedName": "curry powder",
+                            "image": "curry-powder.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404718,
+                            "name": "slow cooker",
+                            "localizedName": "slow cooker",
+                            "image": "slow-cooker.jpg"
+                        },
+                        {
+                            "id": 404752,
+                            "name": "pot",
+                            "localizedName": "pot",
+                            "image": "stock-pot.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 360,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 2,
+                    "step": "Serve over rice.",
+                    "ingredients": [
+                        {
+                            "id": 20444,
+                            "name": "rice",
+                            "localizedName": "rice",
+                            "image": "uncooked-white-rice.png"
+                        }
+                    ],
+                    "equipment": []
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/slow-cooker-lamb-curry-660290"
+}

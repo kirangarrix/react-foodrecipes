@@ -6,7 +6,8 @@
     width: 40%;
     height: auto;
     background-color: #f7f7f7;
-    border-left: 1px solid #ccc;    
+    border-left: 1px solid #ccc; 
+    font-family: 'Roboto';   
 }
 .recipeDetailsClose{
     position: absolute;
@@ -20,9 +21,48 @@
     justify-content: center;
     background-color: white;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);
+    z-index: 2;
 
 }
 .recipeDetailsClose:hover{
     box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
 
+}
+.recipeTitle{
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.recipeSummary{
+    font-size: small;
+    padding: 10px;
+
+}
+
+.ingredientWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+}
+
+.ingredient{
+    display: flex;
+    align-items: center;
+}
+.ingredient img{
+    width: 50px;
+    height: 50px;
+    object-fit: scale-down;
+    padding-left: 10px;
+
+}
+.ingredient span{
+    font-size: small;
+    padding-left: 10px;
 }

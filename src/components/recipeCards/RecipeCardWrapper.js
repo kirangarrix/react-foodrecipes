@@ -13,7 +13,7 @@ fetchRecipe();
 },[props.selectedRecipe]);  
 
 let fetchRecipe = async ()=>{
- let response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${props.selectedRecipe}&addRecipeInformation=true&number=6`);
+ let response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${props.selectedRecipe}&addRecipeInformation=true&number=10`);
  let recipeData = await response.json();
  setRecipes(recipeData.results);
  console.log(recipeData);
